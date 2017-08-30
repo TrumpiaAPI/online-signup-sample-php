@@ -30,6 +30,7 @@ include "info.php";
 
 // Account information and validation.
 // Replace $myUsername with the proper username and $myKey with the API key
+// Get your free Trumpia API Key at http://api.trumpia.com
 // Replace with the list_name the subscription will be added to
 $apikey = $myKey;
 $username = $myUsername;
