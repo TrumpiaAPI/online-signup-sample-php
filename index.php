@@ -90,13 +90,13 @@
 	  <div class="form-group">
 	    <label for="firstName" class="col-sm-2 control-label">First Name</label><span class="error"><?php echo $fNameErr;?></span>
 	    <div class="col-sm-10">
-	      <input type="text" name="name" class="form-control" id="firstName" pattern="^[a-zA-Z]\S{1,30}" placeholder="First Name">
+	      <input type="text" name="firstName" class="form-control" id="firstName" pattern="^[a-zA-Z]\S{1,30}" placeholder="First Name">
 	    </div>
 	  </div>
 	  <div class="form-group">
 	    <label for="lastName" class="col-sm-2 control-label">Last Name</label><span class="error"><?php echo $lNameErr;?></span>
 	    <div class="col-sm-10">
-	      <input type="text" name="name" class="form-control" id="lastName" pattern="^[a-zA-Z]+\S{1,30}" placeholder="Last Name">
+	      <input type="text" name="lastName" class="form-control" id="lastName" pattern="^[a-zA-Z]+\S{1,30}" placeholder="Last Name">
 	    </div>
 	  </div>
 	  <div class="form-group">
